@@ -1,0 +1,11 @@
+{
+    "display_name": "Reel",
+    "loading_order": 104,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Mouksan",
+    "version": "0.1.0",
+    "homePage": "https://github.com/Mouksan/reel"
+}
