@@ -12,13 +12,6 @@
 
 .reel-settings { padding: 4px 2px 8px; }
 
-.reel-intro {
-    font-size: 0.82em;
-    opacity: 0.7;
-    margin: 0 0 10px;
-    line-height: 1.45;
-}
-
 .reel-section { margin-top: 10px; }
 
 .reel-label {
@@ -589,76 +582,6 @@ select.reel-style-select {
     color: var(--reel-accent);
 }
 
-.reel-aspect-grid {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    gap: 4px 10px;
-    font-size: 0.85em;
-}
-
-.reel-aspect-grid select { margin: 0; }
-
-.reel-styles-list {
-    margin-top: 8px;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    max-height: 360px;
-    overflow-y: auto;
-}
-
-.reel-style-item {
-    border: 1px solid var(--reel-border);
-    border-radius: var(--reel-radius);
-    padding: 4px 8px;
-}
-
-.reel-style-item summary {
-    cursor: pointer;
-    font-size: 0.85em;
-    padding: 3px 0;
-}
-
-.reel-style-body { padding: 6px 0 4px; }
-
-.reel-style-top {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 6px;
-}
-
-.reel-style-top input { flex: 1; min-width: 0; margin: 0; }
-
-.reel-style-btns {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 6px;
-}
-
-/* Импорт стилей */
-
-.reel-import { width: min(480px, 100%); }
-
-.reel-import-list {
-    padding: 0 14px;
-    overflow-y: auto;
-    max-height: 60dvh;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
-
-.reel-import-item {
-    padding: 5px 6px;
-    border-radius: 6px;
-    font-size: 0.85em;
-}
-
-.reel-import-item:hover { background: rgba(255, 255, 255, 0.05); }
-
 /* ==================== Кнопка вызова (как у DS Comments) ==================== */
 
 @keyframes reel-pulse {
@@ -710,29 +633,9 @@ input.reel-wish {
 
 input.reel-wish[hidden] { display: none; }
 
-/* ==================== Заряд V5 ==================== */
-
-.reel-charge {
-    background: transparent;
-    border: 1px solid var(--reel-border);
-    border-radius: 10px;
-    color: inherit;
-    font-size: 0.75em;
-    padding: 1px 7px;
-    opacity: 0.75;
-    cursor: pointer;
-    white-space: nowrap;
-}
-
-.reel-charge:hover { opacity: 1; border-color: var(--reel-accent); }
-.reel-charge[hidden] { display: none; }
-.reel-charge.reel-charge-low { color: #fbbf24; border-color: color-mix(in srgb, #fbbf24 45%, transparent); opacity: 1; }
-.reel-charge.reel-charge-critical { color: #f87171; border-color: color-mix(in srgb, #f87171 50%, transparent); opacity: 1; }
-
 /* ==================== Пресет в окне ==================== */
 
 .reel-style-label { min-width: 54px; }
-.reel-style-row.reel-style-row-tight { margin-top: 6px; }
 
 /* ==================== Промпт в большом окне ==================== */
 
